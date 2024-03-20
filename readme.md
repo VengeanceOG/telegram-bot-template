@@ -31,4 +31,5 @@
   - BOT_TOKEN (Generate from @Botfather.)
   - CRASH_MESSAGE (A message to be displayed in case an error occurs.)
   - ENCRYPT_KEY (Generate using fernet.)
+  - START_MESSAGE (A message to be displayed at the start of bot.)
 - Click on create web service and your bot would be live.
