@@ -15,3 +15,5 @@ class Config:
     CRASH_MESSAGE = os.environ['CRASH_MESSAGE']
 
     ENCRYPT_KEY = bytes(os.environ['ENCRYPT_KEY'], encoding='utf-8')
+
+    START_MESSAGE = os.environ['START_MESSAGE']
