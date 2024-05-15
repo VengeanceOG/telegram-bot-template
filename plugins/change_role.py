@@ -37,7 +37,7 @@ def final_change_role(bot: Telebot, callback_query: CallbackQuery):
         id_to_role = {'2': 'admin', '3': 'user'}
         reply = f'✔️ Successfully changed the role of **{change_role_user}** to {id_to_role[str(new_role)]}'
         try:
-            bot.user_data.change_role(change_role_user, new_role)
+            bot.user_data.add_user(change_role_user, new_role)
             callback_query.edit_message_caption(reply)
         except bad_request_400.MessageNotModified:
             # This means user has clicked the button twice..

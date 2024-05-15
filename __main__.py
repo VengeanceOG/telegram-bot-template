@@ -1,4 +1,4 @@
-from .telebot import Telebot
+from telebot import Telebot
 from config import Config
 
 plugins = dict(root='plugins')

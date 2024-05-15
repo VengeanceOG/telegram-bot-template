@@ -1,7 +1,7 @@
 ﻿'''Start command with a welcome message. This is used to verify that bot is online.'''
 from pyrogram import filters
 from telebot import Telebot
-from ..config import Config
+from config import Config
 
 
 @Telebot.on_message(filters.command('start') & filters.private)

@@ -4,3 +4,4 @@ __pycache__
 Utubebot.session
 Utubebot.session-journal
 user_data.json
+venv/
